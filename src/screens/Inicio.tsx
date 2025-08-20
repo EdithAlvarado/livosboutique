@@ -25,7 +25,7 @@ export default function Inicio() {
       id: '1',
       name: 'Vestido Floral Rosa Elegante',
       price: 89.99,
-      image: 'https://uxcanvas.ai/api/generated-images/8c4f1bbc-9c64-4524-beaf-c1502afd7dd8/8f61a964-947e-40b1-927b-c4bdf3eb4ab6',
+      image: 'Vestido-Floral-Rosa-Elegante.jpeg',
       category: 'dress' as const,
       isNew: true
     },
@@ -33,14 +33,14 @@ export default function Inicio() {
       id: '2',
       name: 'Vestido Negro de Noche',
       price: 129.99,
-      image: 'https://uxcanvas.ai/api/generated-images/8c4f1bbc-9c64-4524-beaf-c1502afd7dd8/31c2bdd4-49f5-4e65-83b0-96c4a31230e2',
+      image: 'Vestido-Negrode-Noche.jpeg',
       category: 'dress' as const
     },
     {
       id: '3',
       name: 'Top Blanco con Bordado',
       price: 45.99,
-      image: 'https://uxcanvas.ai/api/generated-images/8c4f1bbc-9c64-4524-beaf-c1502afd7dd8/1435932e-35c8-4beb-9111-08a9257b2988',
+      image: 'Top-Blancocon-Bordado.jpeg',
       category: 'top' as const,
       isNew: true
     },
@@ -48,21 +48,21 @@ export default function Inicio() {
       id: '4',
       name: 'Blusa Azul Off-Shoulder',
       price: 52.99,
-      image: 'https://uxcanvas.ai/api/generated-images/8c4f1bbc-9c64-4524-beaf-c1502afd7dd8/051e4989-d239-43f7-a471-5d3f17233538',
+      image: 'Blusa-AzulOff-Shoulder.jpeg',
       category: 'top' as const
     },
     {
       id: '5',
       name: 'Vestido Rojo Cocktail',
       price: 95.99,
-      image: 'https://uxcanvas.ai/api/generated-images/8c4f1bbc-9c64-4524-beaf-c1502afd7dd8/12b71fd9-3ecc-447b-a599-8d1362244115',
+      image: 'Vestido-Rojo-Cocktail.jpg',
       category: 'dress' as const
     },
     {
       id: '6',
       name: 'Top Rayado Casual',
       price: 38.99,
-      image: 'https://uxcanvas.ai/api/generated-images/8c4f1bbc-9c64-4524-beaf-c1502afd7dd8/80d9a6d9-73a2-41bc-b200-a6d2e38a3263',
+      image: 'Top-Rayado-Casual.jpeg',
       category: 'top' as const
     }
   ]
