@@ -21,51 +21,15 @@ export default function Inicio() {
   const [isCartOpen, setIsCartOpen] = useState(false)
 
   const featuredProducts = [
-    {
-      id: '1',
-      name: 'Vestido Floral Rosa Elegante',
-      price: 89.99,
-      image: 'Vestido-Floral-Rosa-Elegante.jpeg',
-      category: 'dress' as const,
-      isNew: true
-    },
-    {
-      id: '2',
-      name: 'Vestido Negro de Noche',
-      price: 129.99,
-      image: 'Vestido-Negrode-Noche.jpeg',
-      category: 'dress' as const
-    },
-    {
-      id: '3',
-      name: 'Top Blanco con Bordado',
-      price: 45.99,
-      image: 'Top-Blancocon-Bordado.jpeg',
-      category: 'top' as const,
-      isNew: true
-    },
-    {
-      id: '4',
-      name: 'Blusa Azul Off-Shoulder',
-      price: 52.99,
-      image: 'Blusa-AzulOff-Shoulder.jpeg',
-      category: 'top' as const
-    },
-    {
-      id: '5',
-      name: 'Vestido Rojo Cocktail',
-      price: 95.99,
-      image: 'Vestido-Rojo-Cocktail.jpg',
-      category: 'dress' as const
-    },
-    {
-      id: '6',
-      name: 'Top Rayado Casual',
-      price: 38.99,
-      image: 'Top-Rayado-Casual.jpeg',
-      category: 'top' as const
-    }
-  ]
+  { id: '1', name: 'Vestido Floral Rosa Elegante', price: 89.99, image: '../img/Vestido-Floral-Rosa-Elegante.jpeg', category: 'dress' as const, isNew: true },
+  { id: '2', name: 'Vestido Negro de Noche',       price: 129.99, image: '../img/Vestido-Negrode-Noche.jpeg',       category: 'dress' as const },
+  { id: '3', name: 'Top Blanco con Bordado',       price: 45.99,  image: '../img/Top-Blancocon-Bordado.jpeg',       category: 'top'   as const, isNew: true },
+  { id: '4', name: 'Blusa Azul Off-Shoulder',      price: 52.99,  image: '../img/Blusa-AzulOff-Shoulder.jpeg',      category: 'top'   as const },
+  { id: '5', name: 'Vestido Rojo Cocktail',        price: 95.99,  image: '../img/Vestido-Rojo-Cocktail.jpg',        category: 'dress' as const },
+  { id: '6', name: 'Top Rayado Casual',            price: 38.99,  image: '../img/Top-Rayado-Casual.jpeg',           category: 'top'   as const }
+];
+
+   
 
   const handleAddToCart = (product: { id: string; name: string; price: number; image: string; category: string }) => {
     setCartItems(prevItems => {
